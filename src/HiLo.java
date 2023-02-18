@@ -11,7 +11,7 @@ public class HiLo {
 
             int guess = 0;
             while (guess != theNumber) {
-                numberOfTries ++;
+                numberOfTries++;
                 System.out.println("Guess a number between -100 and 100:");
                 guess = scan.nextInt();
                 if (guess < theNumber)
